@@ -21,7 +21,6 @@ body {
   align-items: center;
 }
 .header {
-  width: 1440px;
   padding-top: 32px;
 }
 .header-logotup {
@@ -78,9 +77,6 @@ body {
 }
 .first-section {
   background-color: var(--centrocolor-color);
-  position: absolute;
-  width: 1440px;
-  height: 600px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -132,6 +128,7 @@ body {
   color: var(--centrocolor-color);
 }
 .img-ul {
+  display: flex;
   list-style-type: none;
 }
 .people-ul {
@@ -214,6 +211,7 @@ img {
   padding-bottom: 24px;
 }
 .hero {
+  height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -222,4 +220,13 @@ img {
 .advantages-ul {
   display: flex;
   justify-content: space-between;
+}
+.section-item {
+  width: 1440px;
+}
+
+.item {
+  height: 104px;
+  left: 156px;
+  top: 792px;
 }
