@@ -1,0 +1,225 @@
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--centrocolor-color);
+  background-color: var(--fonokolor-color);
+  font-size: 16px;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.header {
+  width: 1440px;
+  padding-top: 32px;
+}
+.header-logotup {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  color: var(--centrocolor-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 76px;
+}
+.logofint {
+  color: var(--btncolor-color);
+}
+.header-link {
+  font-weight: 500;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: var(--centrocolor-color);
+  text-decoration: none;
+}
+.header-li:not(:last-child) {
+  margin-right: 40px;
+}
+
+.header-link:hover {
+  color: var(--hovercolor-color);
+}
+.adress-ul a {
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondcolor-color);
+  text-decoration: none;
+}
+.adress-ul a:hover,
+.adress-ul a:focus {
+  color: var(--hovercolor-color);
+}
+.adress-ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.header-ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.header-email {
+  margin-right: 40px;
+  margin-left: 332px;
+}
+.first-section {
+  background-color: var(--centrocolor-color);
+  position: absolute;
+  width: 1440px;
+  height: 600px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.heading {
+  padding-top: 188px;
+  padding-bottom: 48px;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--fonokolor-color);
+}
+.first-btn {
+  margin-bottom: 188px;
+  width: 169px;
+  height: 56px;
+  padding: 16px, 32px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--fonokolor-color);
+  background: var(--btncolor-color);
+  cursor: pointer;
+}
+.first-btn:hover {
+  background: var(--hovercolor-color);
+}
+.advantages-ul {
+  list-style-type: none;
+}
+.headline {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--centrocolor-color);
+}
+.heading-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondcolor-color);
+}
+.section-title {
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--centrocolor-color);
+}
+.img-ul {
+  list-style-type: none;
+}
+.people-ul {
+  list-style-type: none;
+}
+.footer {
+  background: var(--centrocolor-color);
+}
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+.footer-logotup {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #f4f4fd;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*--------------page2-------------*/
+
+.btn-ul button {
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
+  color: var(--btncolor-color);
+  background-color: #f4f4fd;
+}
+.btn-ul button:hover {
+  color: var(--fonokolor-color);
+  background-color: var(--hovercolor-color);
+}
+.btn-ul {
+  list-style-type: none;
+}
+.content-ul {
+  list-style-type: none;
+}
+:root {
+  --centrocolor-color: #2e2f42;
+  --secondcolor-color: #434455;
+  --fonokolor-color: #ffffff;
+  --hovercolor-color: #404bbf;
+  --btncolor-color: #4d5ae5;
+}
+
+/* ---------- hv3 ---------*/
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid red;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advantages-ul {
+  display: flex;
+  justify-content: space-between;
+}
