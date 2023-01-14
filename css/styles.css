@@ -82,6 +82,7 @@ body {
 }
 
 .heading {
+  max-width: 500px;
   padding-top: 188px;
   padding-bottom: 48px;
   font-size: 56px;
@@ -121,6 +122,9 @@ body {
   color: var(--secondcolor-color);
 }
 .section-title {
+  padding-top: 120px;
+  padding-bottom: 72px;
+  text-align: center;
   text-transform: capitalize;
   letter-spacing: 0.02em;
   font-size: 36px;
@@ -129,20 +133,45 @@ body {
 }
 .img-ul {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   list-style-type: none;
+  margin-bottom: 120px;
+}
+.section-peple {
+  background-color: #f4f4fd;
 }
 .people-ul {
+  display: flex;
+  gap: 24px;
+  text-align: center;
   list-style-type: none;
 }
+.nametext {
+  gap: 8px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-bottom: 120px;
+  border-width: 1px;
+  border-style: solid;
+  border-top: none;
+  border-color: #e7e9fc;
+  background-color: #ffffff;
+}
 .footer {
+  height: 310px;
   background: var(--centrocolor-color);
 }
 .footer-text {
+  max-width: 300px;
+  padding-bottom: 100px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
 }
 .footer-logotup {
+  padding-top: 100px;
+  padding-bottom: 16px;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -159,16 +188,39 @@ body {
   cursor: pointer;
   color: var(--btncolor-color);
   background-color: #f4f4fd;
+  border-color: #8e8f99;
 }
 .btn-ul button:hover {
   color: var(--fonokolor-color);
   background-color: var(--hovercolor-color);
 }
 .btn-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
   list-style-type: none;
+  padding-top: 96px;
+  padding-bottom: 72px;
 }
 .content-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
   list-style-type: none;
+  margin-bottom: 120px;
+}
+.divcard {
+  gap: 8px;
+  padding-left: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-width: 1px;
+  border-style: solid;
+  border-top: none;
+  border-color: #e7e9fc;
+  margin-bottom: 48px;
 }
 :root {
   --centrocolor-color: #2e2f42;
@@ -195,9 +247,10 @@ ul {
 }
 img {
   display: block;
+  max-width: 100%;
 }
 .container {
-  width: 1200px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -216,17 +269,16 @@ img {
   flex-direction: column;
   align-items: center;
 }
-
 .advantages-ul {
+  gap: 24px;
   display: flex;
   justify-content: space-between;
 }
 .section-item {
-  width: 1440px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
-
-.item {
-  height: 104px;
-  left: 156px;
-  top: 792px;
+.footer-div {
+  display: flex;
+  flex-direction: column;
 }
