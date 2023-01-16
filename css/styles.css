@@ -16,6 +16,14 @@ body {
   background-color: var(--fonokolor-color);
   font-size: 16px;
 }
+:root {
+  --centrocolor-color: #2e2f42;
+  --secondcolor-color: #434455;
+  --fonokolor-color: #ffffff;
+  --hovercolor-color: #404bbf;
+  --btncolor-color: #4d5ae5;
+}
+
 h1,
 h2,
 h3,
@@ -119,7 +127,7 @@ address {
 .heading {
   max-width: 500px;
   margin: 0 auto;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -167,7 +175,12 @@ address {
   letter-spacing: 0.02em;
   color: var(--secondcolor-color);
 }
-.section-title {
+
+/*----------------section3------------*/
+.about {
+  padding-top: 0;
+}
+.title {
   margin-bottom: 72px;
   text-align: center;
   text-transform: capitalize;
@@ -182,7 +195,8 @@ address {
   justify-content: space-between;
   list-style-type: none;
 }
-.section-team {
+.team {
+  padding-top: 0;
   background-color: #f4f4fd;
 }
 .people-ul {
@@ -201,6 +215,8 @@ address {
   border-color: #e7e9fc;
   background-color: #ffffff;
 }
+
+/*----------------footer-----------*/
 .footer {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -213,8 +229,8 @@ address {
   color: #e7e9fc;
 }
 .footer-logotup {
-  padding-top: 100px;
-  padding-bottom: 16px;
+  display: block;
+  margin-bottom: 16px;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -226,6 +242,9 @@ address {
 /*--------------page2-------------*/
 
 .btn-ul button {
+  border: none;
+  border-radius: 4px;
+  padding: 12px 24px;
   font-weight: 500;
   line-height: 24px;
   cursor: pointer;
@@ -238,21 +257,19 @@ address {
   background-color: var(--hovercolor-color);
 }
 .btn-ul {
+  margin-bottom: 72px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 24px;
   list-style-type: none;
-  padding-top: 96px;
-  padding-bottom: 72px;
 }
 .content-ul {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   flex-wrap: wrap;
   list-style-type: none;
-  margin-bottom: 120px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .divcard {
   gap: 8px;
@@ -263,12 +280,7 @@ address {
   border-style: solid;
   border-top: none;
   border-color: #e7e9fc;
-  margin-bottom: 48px;
 }
-:root {
-  --centrocolor-color: #2e2f42;
-  --secondcolor-color: #434455;
-  --fonokolor-color: #ffffff;
-  --hovercolor-color: #404bbf;
-  --btncolor-color: #4d5ae5;
+.portfolio {
+  padding-top: 96px;
 }
