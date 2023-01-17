@@ -53,6 +53,10 @@ address {
   margin-right: auto;
   outline: 2px solid red;
 }
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 /*--------------header-------------*/
 .header-container {
@@ -150,10 +154,7 @@ address {
 }
 
 /*--------------Section2---------------*/
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+
 .advantages-list {
   gap: 24px;
   display: flex;
@@ -196,7 +197,6 @@ address {
   list-style-type: none;
 }
 .team {
-  padding-top: 0;
   background-color: #f4f4fd;
 }
 .people-ul {
